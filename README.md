@@ -1,24 +1,24 @@
 ## Get Started
 
-This guide describes how to use DigitalOcean App Platform to run a sample Dockerfile application.
+This guide describes how to fast deploy without pain a proxy in DigitalOcean App Platform for FREE.
 
 **Note**: Following these steps may result in charges for the use of DigitalOcean services.
 
 ### Requirements
 
-* You need a DigitalOcean account. If you do not already have one, first [sign up](https://cloud.digitalocean.com/registrations/new).
+- You need a DigitalOcean account. If you do not already have one, first [sign up](https://m.do.co/c/03e5ff6ba13f).
 
 ## Deploy the App
 
 Click the following button to deploy the app to App Platform. If you are not currently logged in with your DigitalOcean account, this button prompts you to to log in.
 
-[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/digitalocean/sample-dockerfile/tree/main)
+[![Deploy to DigitalOcean](https://www.deploytodo.com/do-btn-blue.svg)](https://cloud.digitalocean.com/apps/new?repo=https://github.com/dalihsusilo/neutron-proxy/tree/main)
 
-Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository](https://github.com/digitalocean/sample-dockerfile/tree/main).
+Note that, for the purposes of this tutorial, this button deploys the app directly from DigitalOcean's GitHub repository, which disables automatic redeployment since you cannot change our template. If you want automatic redeployment or you want to change the sample app's code to your own, we instead recommend you fork [our repository](https://github.com/dalihsusilo/neutron-proxy/tree/main).
 
-To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/digitalocean/sample-dockerfile/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
+To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/dalihsusilo/neutron-proxy/tree/main), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-org>/sample-dockerfile`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
+After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-username>/neutron-proxy`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
 
 After clicking the **Deploy to DigitalOcean** button or completing the instructions above to fork the repo, follow these steps:
 
@@ -30,7 +30,6 @@ After clicking the **Deploy to DigitalOcean** button or completing the instructi
 After, you should see a "Building..." progress indicator. You can click **View Logs** to see more details of the build. It can take a few minutes for the build to finish, but you can follow the progress in the **Deployments** tab.
 
 Once the build completes successfully, click the **Live App** link in the header and you should see your running application in a new tab, displaying the home page.
-
 
 ## Make Changes to Your App
 
@@ -51,6 +50,7 @@ To learn more about App Platform and how to manage and update your application, 
 ## Delete the App
 
 When you no longer need this sample application running live, you can delete it by following these steps:
+
 1. Visit the [Apps control panel](https://cloud.digitalocean.com/apps).
 2. Navigate to the sample app.
 3. In the **Settings** tab, click **Destroy**.
