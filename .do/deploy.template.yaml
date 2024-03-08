@@ -1,0 +1,10 @@
+spec:
+  name: neutron-proxy
+  services:
+    - dockerfile_path: Dockerfile
+      git:
+        branch: master
+        repo_clone_url: https://github.com/dalihsusilo/neutron-proxy.git
+      name: neutron-proxy
+      http_port:
+        - 3128
