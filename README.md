@@ -1,6 +1,6 @@
 ## What is this?
 
-This guide describes how to fast deploy without pain a proxy in DigitalOcean App Platform for FREE.
+This guide describes how to fast deploy without pain a proxy in DigitalOcean App Platform.
 
 **Note**: Following these steps may result in charges for the use of DigitalOcean services.
 
