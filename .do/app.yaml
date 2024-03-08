@@ -2,7 +2,9 @@ name: neutron-proxy
 services:
   - dockerfile_path: Dockerfile
     github:
-      branch: main
+      branch: master
       deploy_on_push: true
-      repo: digitalocean/neutron-proxy
+      repo: dalihsusilo/neutron-proxy
     name: neutron-proxy
+    internal_ports:
+      - 8080

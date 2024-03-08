@@ -3,6 +3,8 @@ spec:
   services:
     - dockerfile_path: Dockerfile
       git:
-        branch: main
-        repo_clone_url: https://github.com/digitalocean/neutron-proxy.git
+        branch: master
+        repo_clone_url: https://github.com/dalihsusilo/neutron-proxy.git
       name: neutron-proxy
+      internal_ports:
+        - 8080
