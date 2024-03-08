@@ -1,4 +1,4 @@
-## Get Started
+## What is this?
 
 This guide describes how to fast deploy without pain a proxy in DigitalOcean App Platform for FREE.
 
@@ -8,7 +8,7 @@ This guide describes how to fast deploy without pain a proxy in DigitalOcean App
 
 - You need a DigitalOcean account. If you do not already have one, first [sign up](https://m.do.co/c/03e5ff6ba13f).
 
-## Deploy the App
+## Deploy a squid proxy server in Digital Ocean
 
 Click the following button to deploy the app to App Platform. If you are not currently logged in with your DigitalOcean account, this button prompts you to to log in.
 
