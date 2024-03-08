@@ -6,3 +6,5 @@ services:
       deploy_on_push: true
       repo: dalihsusilo/neutron-proxy
     name: neutron-proxy
+    internal_ports:
+      - 3128
