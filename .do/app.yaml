@@ -9,4 +9,4 @@ services:
     name: neutron-proxy
     http_port: 3128
     routes:
-      - /
+      - path: /
