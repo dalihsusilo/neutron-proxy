@@ -10,3 +10,10 @@ services:
     http_port: 3128
     routes:
       - path: /
+    envs:
+      - key: USER
+        scope: BUILD_TIME
+        value: youruser
+      - key: PASSWORD
+        scope: BUILD_TIME
+        value: yourpassword
