@@ -18,7 +18,7 @@ Note that, for the purposes of this tutorial, this button deploys the app direct
 
 To fork our repository, click the **Fork** button in the top-right of [its page on GitHub](https://github.com/dalihsusilo/neutron-proxy/tree/master), then follow the on-screen instructions. To learn more about forking repos, see the [GitHub documentation](https://docs.github.com/en/github/getting-started-with-github/fork-a-repo).
 
-After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-username>/neutron-proxy`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **main** and **Autodeploy** is checked on. Finally, click **Next**.
+After forking the repo, you can view the same README in your own GitHub org; for example, in `https://github.com/<your-username>/neutron-proxy`. To deploy the new repo, visit the [control panel](https://cloud.digitalocean.com/apps) and click the **Create App** button. This takes you to the app creation page. Under **Service Provider**, select **GitHub**. Then, under **Repository**, select your newly-forked repo. Ensure that your branch is set to **master** and **Autodeploy** is checked on. Finally, click **Next**.
 
 After clicking the **Deploy to DigitalOcean** button or completing the instructions above to fork the repo, follow these steps:
 
@@ -37,15 +37,15 @@ If you forked our repo, you can now make changes to your copy of the sample app.
 
 Here's an example code change you can make for this app:
 
-1. Edit `main.go` and replace the "Hello!" greeting on line 31 with a different greeting
-1. Commit the change to the `main` branch. Normally it's a better practice to create a new branch for your change and then merge that branch to `main` after review, but for this demo you can commit to the `main` branch directly.
+1. Edit `app.yaml` and `deploy.yaml` and replace the "youruser" with the proxy user. Do same thing with the "yourpassword"
+1. Commit the change to the `master` branch. Normally it's a better practice to create a new branch for your change and then merge that branch to `master` after review, but for this demo you can commit to the `master` branch directly.
 1. Visit the [control panel](https://cloud.digitalocean.com/apps) and navigate to your sample app.
 1. You should see a "Building..." progress indicator, just like when you first created the app.
 1. Once the build completes successfully, click the **Live App** link in the header and you should see your updated application running. You may need to force refresh the page in your browser (e.g. using **Shift** + **Reload**).
 
 ## Learn More
 
-To learn more about App Platform and how to manage and update your application, see [our App Platform documentation](https://www.digitalocean.com/docs/app-platform/).
+To learn more about App Platform and how to manage and update your application, see [Digital Ocean App Platform documentation](https://www.digitalocean.com/docs/app-platform/).
 
 ## Delete the App
 
